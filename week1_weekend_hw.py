@@ -55,6 +55,13 @@ users = {
 }
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+def get_twitter(name):
+    return name["Jonathan"]["twitter"]
+
+print(get_twitter(users))
+
+# I DID IT!! :D
+
 # 2. Get Erik's hometown
 # 3. Get the list of Erik's lottery numbers
 # 4. Get the species of Avril's pet Monty
