@@ -143,7 +143,7 @@ print(users["Erik"]["lottery_numbers"])
 
 # In this function I needed to append a list in order to add the number 7
 # here I define the function with a user and a new number
-# in the next line I need to use the method .append to add the new number to the users location ie "Erik"
+# in the next line I need to use the function .append to add the new number to the users location ie "Erik"
 # in the function call I was not able to use 7 as is so i needed to use int to turn it from a str into and integar
 # :)
 
@@ -159,4 +159,17 @@ print(users["Erik"])
 # Print check to check the answer
 
 # 9. Add a pet dog to Erik called "fluffy"
+
+users["Erik"]["pets"].append(
+    {
+      "name": "fluffy",
+      "species": "dog"
+    },
+    )
+
+print(users["Erik"])
+
+# In this question I used the function .append to add a dictionary to the list users and "Erik"
+# In the last line I printed to check my answer
+
 # 10. Add another person to the users dictionary
