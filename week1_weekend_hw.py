@@ -61,6 +61,11 @@ def get_twitter(name):
 print(get_twitter(users))
 
 # I DID IT!! :D
+# my notes for this section:
+# I defined a function that would look for the name of Jonathans twitter handle
+# I knew my function needed to retrieve a specific string located in the dictionary for "Jonathan"
+# the key that I was looking for was "twitter" as the value to that key was my answer
+# As the main dictionary was named "users" I had my function call to the users dictionary to look for said key value
 
 # 2. Get Erik's hometown
 
