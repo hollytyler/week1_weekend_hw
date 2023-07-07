@@ -173,3 +173,33 @@ print(users["Erik"])
 # In the last line I printed to check my answer
 
 # 10. Add another person to the users dictionary
+
+users["holly"] = {
+    
+    "favourite_day": "friday",
+    "favourite_numbers": [7, 13, 4, 28, 11],
+    "favourite_town": "Edinburgh",
+    "pets": [
+    {
+      "name": "simba",
+      "species": "cat"
+    },
+    {
+      "name": "nala",
+      "species": "dog"
+    },
+    {
+      "name": "codie",
+      "species": "duck"
+    }
+  ]
+}
+
+print(users)
+
+# SO this one was very simple in that all I need to do is add a dictionary in.
+# The syntax for this is dictionary['new_key'] = _________
+
+#Hope my notes are legible and enough infomation :)
+
+# END -----
