@@ -98,6 +98,12 @@ def avrils_petspecies(pet):
 print(avrils_petspecies(users))
 
 # HURRAY!
+# Slightly different events here however my function is performing the same task
+# in this case my function needed to find a str within a list 
+# In order to do this when my function was looking for specific location it needed an added index number
+# once it had that index it also still needed a key, "species"
+# So it first went to "Avril" and then to "pets" which is a list
+# so in order to find the item located in the list it need the index 0 with the corresponding key for the value result.
 
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
