@@ -72,6 +72,14 @@ print(get_erikstown(users))
 # I DID IT AGAIN! :D
 
 # 3. Get the list of Erik's lottery numbers
+
+def get_erikslottery(numbers):
+    return numbers["Erik"]["lottery_numbers"]
+
+print(get_erikslottery(users))
+
+#YAY!!!! :D
+
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
