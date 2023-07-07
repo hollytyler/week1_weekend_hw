@@ -63,6 +63,14 @@ print(get_twitter(users))
 # I DID IT!! :D
 
 # 2. Get Erik's hometown
+
+def get_erikstown(town):
+    return town["Erik"]["home_town"]
+
+print(get_erikstown(users))
+
+# I DID IT AGAIN! :D
+
 # 3. Get the list of Erik's lottery numbers
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
