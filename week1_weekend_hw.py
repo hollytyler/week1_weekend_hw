@@ -117,6 +117,22 @@ print(get_smallest(users))
 # However this time my function returned an integar which was located on a list with the indexx 2 
 
 # 6. Return an list of Avril's lottery numbers that are even
+
+avril_lottery_numbers= users["Avril"]["lottery_numbers"]
+even_numbers=[]
+
+for number in avril_lottery_numbers:
+    if number % 2 == 0:
+      even_numbers.append(number)
+
+print(even_numbers)
+
+#This one was tricky for me! I got really caught up in trying to turn it into a function and couldnt wrap my head around that
+# Managed to get the result in the end by assigning two variables with values
+# first one being the path for the for and the second one being my print result list.
+# the purpose of the empty list is so that once I pull the even list in the for loop it will populate an empty list
+# the % is something I needed to google in order to find out how to get the even numbers. the .append is used to the populate the list with multiple numbers
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
