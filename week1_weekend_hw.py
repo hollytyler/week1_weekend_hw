@@ -86,6 +86,9 @@ def get_erikslottery(numbers):
 print(get_erikslottery(users))
 
 #YAY!!!! :D
+# Similar process to both previous questions
+# However this time I knew my function would print a list of numbers
+# It did :)
 
 # 4. Get the species of Avril's pet Monty
 
