@@ -148,5 +148,15 @@ print(users["Erik"]["lottery_numbers"])
 # :)
 
 # 8. Change Erik's hometown to Edinburgh
+
+users["Erik"]["home_town"] = "Edinburgh"
+
+print(users["Erik"])
+
+# :D 
+# This one was a simple modification
+# List users with keys "Erik" + "home_town" and replacing the original value with "Edinburhg"
+# Print check to check the answer
+
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
