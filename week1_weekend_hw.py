@@ -106,6 +106,16 @@ print(avrils_petspecies(users))
 # so in order to find the item located in the list it need the index 0 with the corresponding key for the value result.
 
 # 5. Get the smallest of Erik's lottery numbers
+
+def get_smallest(number):
+    return number["Erik"]["lottery_numbers"][2]
+
+print(get_smallest(users))
+
+# WHOOP WHOOP!!!
+# Again similar process to the previous one
+# However this time my function returned an integar which was located on a list with the indexx 2 
+
 # 6. Return an list of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
