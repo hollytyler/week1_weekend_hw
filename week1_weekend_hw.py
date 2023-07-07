@@ -75,6 +75,8 @@ def get_erikstown(town):
 print(get_erikstown(users))
 
 # I DID IT AGAIN! :D
+# Similar process to question 1
+# However this time I looked in "Erik" and found the key "home_town" for my function to print
 
 # 3. Get the list of Erik's lottery numbers
 
