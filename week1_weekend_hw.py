@@ -134,6 +134,19 @@ print(even_numbers)
 # the % is something I needed to google in order to find out how to get the even numbers. the .append is used to the populate the list with multiple numbers
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+
+def add_number(user, new_number):
+    user["lottery_numbers"].append(new_number)
+
+add_number(users["Erik"], int(7))
+print(users["Erik"]["lottery_numbers"])
+
+# In this function I needed to append a list in order to add the number 7
+# here I define the function with a user and a new number
+# in the next line I need to use the method .append to add the new number to the users location ie "Erik"
+# in the function call I was not able to use 7 as is so i needed to use int to turn it from a str into and integar
+# :)
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
